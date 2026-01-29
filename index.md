@@ -15,4 +15,13 @@ author_profile: true
 3. **매일 꾸준히** 기록 남기기
 
 ---
-### 📝 최근 포스트
+### 📝 최신 글
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span style="font-size:small; color:gray;">({{ post.date | date: "%Y-%m-%d" }})</span>
+    </li>
+  {% endfor %}
+</ul>
