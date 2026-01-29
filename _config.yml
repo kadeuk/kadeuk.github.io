@@ -1,0 +1,8 @@
+title: Kadeuk's Tech Blog
+description: 83년생 엔지니어의 M365 정복기
+author: Kadeuk
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+minimal_mistakes_skin: "default"
+search: true
