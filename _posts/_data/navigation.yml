@@ -1,0 +1,7 @@
+main:
+  - title: "HOME"
+    url: /
+  - title: "블로그"
+    url: /year-archive/
+  - title: "카테고리"
+    url: /categories/
