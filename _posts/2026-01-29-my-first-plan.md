@@ -1,6 +1,6 @@
 ---
 title: "M365 관리자 도전! 나의 2026년 학습 계획"
-date: 2026-01-29
+date: 2026-01-28
 categories: [Study, Career]
 tags: [M365, MD-102, Goal]
 ---
