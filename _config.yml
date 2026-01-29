@@ -7,3 +7,19 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "default"
 search: true
+
+# 날짜 표시 형식 한국식으로 변경
+locale: "ko-KR"
+timezone: "Asia/Seoul"
+
+# 상단 메뉴 연결
+data:
+  ui-text:
+    nav_list_label: "Menu"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
