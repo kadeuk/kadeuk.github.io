@@ -2,26 +2,23 @@ title: Kadeuk Tech Blog
 description: 83년생 엔지니어의 M365 정복기
 author: Kadeuk
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"
+
+# 필수 플러그인
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-minimal_mistakes_skin: "default"
-search: true
 
-# 날짜 표시 형식 한국식으로 변경
+# 설정 (검색, 한글, 날짜)
+search: true
 locale: "ko-KR"
 timezone: "Asia/Seoul"
+future: true
 
-# 상단 메뉴 연결
-data:
-  ui-text:
-    nav_list_label: "Menu"
-
+# 레이아웃 자동 적용 (이게 중요!)
 defaults:
   - scope:
       path: ""
     values:
       layout: single
       author_profile: true
-
-future: true
